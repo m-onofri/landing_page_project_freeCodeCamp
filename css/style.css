@@ -367,10 +367,6 @@ footer {
     padding: 1px;
   }
 
-  #header.extend {
-    padding-bottom: 11rem;
-  }
-
   .menu_icon.show {
     display: block;
   }
@@ -379,10 +375,15 @@ footer {
     width: 100%;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 1rem;
   }
 
   #nav-bar.hide {
     display: none;
+  }
+
+  .nav-link a {
+    font-size: 1.5rem;
   }
 
   #hero-img {

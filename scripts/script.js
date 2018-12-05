@@ -44,14 +44,12 @@ function addContent(index) {
 icon.addEventListener("click", function() {
   icon.classList.toggle("change");
   navBar.classList.toggle("hide");
-  header.classList.toggle("extend");
 });
 
 navBar.addEventListener("click", function(e) {
   if (e.target.tagName === "A") {
     icon.classList.remove("change");
     navBar.classList.add("hide");
-    header.classList.remove("extend");
   }
 });
 
