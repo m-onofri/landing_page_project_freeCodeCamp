@@ -358,12 +358,17 @@ footer {
 }
 
 @media only screen and (max-width : 650px) {
-  #header.extend {
-    padding-bottom: 11rem;
+
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1px;
   }
 
-  .logo {
-    display: block;
+  #header.extend {
+    padding-bottom: 11rem;
   }
 
   .menu_icon.show {
@@ -378,6 +383,10 @@ footer {
 
   #nav-bar.hide {
     display: none;
+  }
+
+  #hero-img {
+    margin-top: 3rem;
   }
 
   .big {
